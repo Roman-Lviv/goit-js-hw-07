@@ -42,3 +42,31 @@
 .gallery__link:hover {
   cursor: zoom-in;
 }
+
+/* Додайте стилі за вашими вимогами */
+.gallery {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery__item {
+  margin: 10px;
+}
+
+.gallery__link {
+  text-decoration: none;
+}
+
+.gallery__image {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  transition: transform 0.2s ease-in-out;
+}
+
+.gallery__image:hover {
+  transform: scale(1.1);
+}
