@@ -1,9 +1,5 @@
 import { galleryItems } from "./gallery-items.js";
 
-console.log(galleryItems);
-
-import { galleryItems } from "./gallery-items.js";
-
 const galleryContainer = document.querySelector(".gallery");
 
 function createGalleryItem(item) {
